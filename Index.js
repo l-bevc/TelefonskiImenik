@@ -24,6 +24,7 @@ function Spremi(){
     var t = document.createTextNode("EDIT");
     botun.appendChild(t);
    // botun.onclick = function() {Promjena()};
+   
     var red=tablica.insertRow(brojac);
     var celija1= red.insertCell(0);
     var celija2= red.insertCell(1);
