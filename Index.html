@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Telefonski imenik</title>
+    <script src="Index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Index.css">
+</head>
+<body>
+
+<h1>Telefonski imenik</h1>
+
+<div id="tablicaid" class="klasaTablice">
+    <table id="tablica">
+        <tr>
+          <th id="ime">Firstname</th>
+          <th id="prezime">Lastname</th> 
+          <th id="broj">PhoneNumber</th>
+        </tr>
+      </table>    
+    <button type="button" onclick="Dodaj()">Add</button>
+
+</div>
+<div  id="formaid" class="klasaForme">
+    <form action="">
+            First name: <input class="w3-input" type="text" name="firstname" id="imeid"><br>
+            Last name: <input class="w3-input" type="text" name="lastname" id="prezimeid"><br>
+            Phone number: <input class="w3-input" type="text" name="phonenumber" id="brojid">
+    </form>
+    <button type="button" onclick="Spremi()">Save</button>
+    <button type="button" onclick="Odustani()">Cancel</button>
+
+</div>
+
+</body>
+</html>
+

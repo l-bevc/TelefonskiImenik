@@ -1,0 +1,29 @@
+
+
+.klasaTablice {
+    background-color: #0099cc;
+}
+
+
+.klasaForme {
+    background-color: indianred;
+    visibility: collapse;
+}
+
+td, th, tr {
+    width: 100px;
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
